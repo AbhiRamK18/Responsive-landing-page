@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="NovaTech helps you organize tasks, track progress, and work smarter.">
+
+    <title>NovaTech | Work Smarter</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <a href="#home" class="logo">
+                Nova<span>Tech</span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menu-toggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="nav-links">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="nav-button">Get Started</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <p class="eyebrow">YOUR WORKSPACE, REIMAGINED</p>
+
+                    <h1>
+                        Work smarter.<br>
+                        <span>Achieve more.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Organize your tasks, manage your projects, and
+                        collaborate with your team — all in one simple place.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#features" class="btn btn-primary">
+                            Explore Features
+                        </a>
+
+                        <a href="#about" class="btn btn-secondary">
+                            Learn More →
+                        </a>
+                    </div>
+
+                    <p class="hero-note">
+                        Simple to use. Designed for productivity.
+                    </p>
+                </div>
+
+                <!-- Product Preview -->
+                <div class="hero-visual">
+                    <div class="dashboard">
+
+                        <div class="dashboard-header">
+                            <div>
+                                <p class="dashboard-label">YOUR WORKSPACE</p>
+                                <h2>Project Overview</h2>
+                            </div>
+                            <span class="status-dot">● Online</span>
+                        </div>
+
+                        <div class="progress-card">
+                            <p>Weekly productivity</p>
+                            <div class="progress-info">
+                                <strong>78%</strong>
+                                <span>Great progress!</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill"></div>
+                            </div>
+                        </div>
+
+                        <h3 class="task-heading">Today's tasks</h3>
+
+                        <div class="task">
+                            <span class="task-check">✓</span>
+                            <span>Complete project design</span>
+                            <span class="task-tag completed">Done</span>
+                        </div>
+
+                        <div class="task">
+                            <span class="task-check pending"> </span>
+                            <span>Review team updates</span>
+                            <span class="task-tag in-progress">In progress</span>
+                        </div>
+
+                        <div class="task">
+                            <span class="task-check pending"> </span>
+                            <span>Prepare weekly report</span>
+                            <span class="task-tag upcoming">Upcoming</span>
+                        </div>
+
+                        <div class="dashboard-footer">
+                            <span>You're making progress!</span>
+                            <span>↗</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features section-padding" id="features">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT MAKES US DIFFERENT</p>
+                    <h2>Everything you need to do your best work</h2>
+                    <p>
+                        Powerful features that make your everyday work easier.
+                    </p>
+                </div>
+
+                <div class="feature-grid">
+
+                    <article class="feature-card">
+                        <div class="feature-icon purple">✓</div>
+                        <h3>Smart Task Management</h3>
+                        <p>
+                            Organize your daily tasks, set priorities,
+                            and keep track of every deadline.
+                        </p>
+                        <a href="#contact" class="feature-link">
+                            Learn more →
+                        </a>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon blue">↗</div>
+                        <h3>Progress Analytics</h3>
+                        <p>
+                            Understand your productivity with clear
+                            progress indicators and project insights.
+                        </p>
+                        <a href="#contact" class="feature-link">
+                            Learn more →
+                        </a>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon orange">◎</div>
+                        <h3>Team Collaboration</h3>
+                        <p>
+                            Keep your team connected, share updates,
+                            and move projects forward together.
+                        </p>
+                        <a href="#contact" class="feature-link">
+                            Learn more →
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- About / Call to Action -->
+        <section class="about section-padding" id="about">
+            <div class="container about-content">
+                <div>
+                    <p class="eyebrow">A BETTER WAY TO WORK</p>
+                    <h2>Make every day more productive.</h2>
+                    <p>
+                        NovaTech brings your work together so you can
+                        focus on what matters most.
+                    </p>
+                </div>
+
+                <a href="#contact" class="btn btn-light">
+                    Get Started Today →
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact section-padding" id="contact">
+            <div class="container contact-content">
+                <h2>Ready to work smarter?</h2>
+                <p>
+                    Take the first step toward a more organized workflow.
+                </p>
+                <button class="btn btn-primary" id="get-started">
+                    Get Started
+                </button>
+                <p class="contact-message" id="contact-message"
+                   aria-live="polite"></p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo footer-logo">
+                Nova<span>Tech</span>
+            </a>
+
+            <p>
+                Making productivity simple, one day at a time.
+            </p>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <p class="copyright">
+                © <span id="year"></span> NovaTech. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
