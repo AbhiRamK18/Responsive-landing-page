@@ -1,6 +1,9 @@
 
 # NovaTech Responsive Landing Page
 
+## Live Demo
+https://novatech-ivory.vercel.app/
+
 ## Project Description
 NovaTech is a sample productivity platform landing page
 developed as part of a Web Development Internship task.
